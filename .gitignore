@@ -1,0 +1,8 @@
+# ignore file from asteris
+asteris/
+
+# ignore zipped files
+*.tar.gz
+
+# ignore files from editor
+*.sublime*
