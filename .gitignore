@@ -6,3 +6,6 @@ asteris/
 
 # ignore files from editor
 *.sublime*
+
+# ignore python generated files
+src/*.pyc
