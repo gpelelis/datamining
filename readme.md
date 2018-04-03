@@ -1,3 +1,10 @@
+# how to execute
+Given that datasets location is currently hardcoded you need to go on src and then execute main.py. If you are on macOS you may need to execute pythonw instead of python
+```bash
+cd src
+python main.py
+```
+
 ### wordcloud
 Here you can find the [documentation of wordcloud API](http://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html#wordcloud.WordCloud). For further usage see [examples from github](https://github.com/amueller/word_cloud/tree/master/examples)
 
