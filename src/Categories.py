@@ -23,6 +23,7 @@ class Categories:
         }
         target_category.append(doc_to_add)
 
+
     def get_body_as_string(self, category_name):
       str = ''
 
