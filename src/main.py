@@ -8,21 +8,16 @@ Generating the word cloud for the small dataset
 
 from os import path
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+from Categories import Categories
+# import matplotlib.pyplot as plt
 
+TRAIN_SET_FILE = '../datasets/small_train_set.csv'
+IMAGE_FOLDER = '../output/images/'
 
-TRAIN_SET_FILE = '../datasets/test_wordcloud.txt'
-text = open(TRAIN_SET_FILE).read()
+categories = Categories(TRAIN_SET_FILE)
+
+text = categories.get_body_as_string('Film')
 wordcloud = WordCloud().generate(text)
 
 # display the image
-plt.imshow(wordcloud, interpolation='bilinear')
-# plt.axis("off")
-
-
-# # lower max_font_size
-# wordcloud = WordCloud(max_font_size=40).generate(text)
-# plt.figure()
-# plt.imshow(wordcloud, interpolation="bilinear")
-# plt.axis("off")
-plt.show()
+image = wordcloud.to_file(IMAGE_FOLDER + 'test.png')

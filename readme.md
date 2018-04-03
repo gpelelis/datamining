@@ -1,5 +1,5 @@
 ### wordcloud
-Here you can find the [documentation of wordcloud API](http://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html#wordcloud.WordCloud)   
+Here you can find the [documentation of wordcloud API](http://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html#wordcloud.WordCloud). For further usage see [examples from github](https://github.com/amueller/word_cloud/tree/master/examples)
 
 **usage example:**
 ```python
