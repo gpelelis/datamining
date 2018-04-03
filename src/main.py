@@ -11,12 +11,9 @@ import random
 from Categories import Categories
 
 # CONSTANTS
-TRAIN_SET_FILE = '../datasets/small_train_set.csv'
+TRAIN_SET_FILE = '../datasets/train_set.csv'
 IMAGE_FOLDER = '../output/images/'
 
-def grey_color_func(word, font_size, position, orientation, random_state=None,
-                    **kwargs):
-    return "hsl(0, 0%%, %d%%)" % random.randint(60, 100)
 
 # FUNCTIONS
 def generate_word_cloud():
@@ -26,10 +23,9 @@ def generate_word_cloud():
   for category_name in categories.categories:
     text = categories.get_body_as_string(category_name)
     wordcloud = WordCloud().generate(text)
-    default_colors = wordcloud.to_array()
-    wordcloud.recolor(color_func=grey_color_func, random_state=3)
 
     # display the image
     image = wordcloud.to_file(IMAGE_FOLDER + category_name + '.png')
+    print('generated the image for ' + category_name + '. Check it at output/' + category_name + '.png')
 
 generate_word_cloud()
