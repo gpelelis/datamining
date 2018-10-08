@@ -1,0 +1,68 @@
+Random forest - accuracy per #components
+For features: 10 the accuracy: 0.94032, precision: 0.93651, recall: 0.93449, fmeasure: 0.93544
+For features: 20 the accuracy: 0.94579, precision: 0.94284, recall: 0.93939, fmeasure: 0.941
+For features: 30 the accuracy: 0.94978, precision: 0.94717, recall: 0.94416, fmeasure: 0.94559
+For features: 50 the accuracy: 0.94962, precision: 0.9475, recall: 0.94413, fmeasure: 0.94571
+For features: 70 the accuracy: 0.95019, precision: 0.94773, recall: 0.94457, fmeasure: 0.94607
+For features: 80 the accuracy: 0.94815, precision: 0.9452, recall: 0.94287, fmeasure: 0.94399
+For features: 100 the accuracy: 0.9497, precision: 0.94765, recall: 0.944, fmeasure: 0.94571
+For features: 120 the accuracy: 0.94823, precision: 0.94596, recall: 0.94266, fmeasure: 0.94422
+For features: 150 the accuracy: 0.94913, precision: 0.94771, recall: 0.9439, fmeasure: 0.94568
+For features: 170 the accuracy: 0.95125, precision: 0.94896, recall: 0.94628, fmeasure: 0.94756
+For features: 200 the accuracy: 0.94864, precision: 0.94602, recall: 0.94365, fmeasure: 0.94479
+For features: 220 the accuracy: 0.94888, precision: 0.94624, recall: 0.94353, fmeasure: 0.94484
+For features: 250 the accuracy: 0.94913, precision: 0.94684, recall: 0.94326, fmeasure: 0.94496
+For features: 270 the accuracy: 0.94799, precision: 0.94556, recall: 0.9422, fmeasure: 0.9438
+For features: 300 the accuracy: 0.94456, precision: 0.94286, recall: 0.93804, fmeasure: 0.94027
+For features: 340 the accuracy: 0.94872, precision: 0.94693, recall: 0.94299, fmeasure: 0.94484
+For features: 360 the accuracy: 0.94799, precision: 0.94711, recall: 0.9423, fmeasure: 0.94454
+For features: 400 the accuracy: 0.94603, precision: 0.94485, recall: 0.93986, fmeasure: 0.94218
+
+Bayes - metrics per #components
+For features: 10 the accuracy: 0.88635, precision: 0.87298, recall: 0.88526, fmeasure: 0.87438
+For features: 20 the accuracy: 0.87241, precision: 0.86454, recall: 0.87009, fmeasure: 0.86427
+For features: 30 the accuracy: 0.87853, precision: 0.86714, recall: 0.87702, fmeasure: 0.86825
+For features: 50 the accuracy: 0.87861, precision: 0.8706, recall: 0.87385, fmeasure: 0.86861
+For features: 70 the accuracy: 0.86972, precision: 0.86341, recall: 0.86471, fmeasure: 0.86028
+For features: 80 the accuracy: 0.86679, precision: 0.86064, recall: 0.8611, fmeasure: 0.85702
+For features: 100 the accuracy: 0.86654, precision: 0.86296, recall: 0.86008, fmeasure: 0.85778
+For features: 120 the accuracy: 0.86793, precision: 0.86683, recall: 0.86178, fmeasure: 0.8606
+For features: 150 the accuracy: 0.86679, precision: 0.86485, recall: 0.86018, fmeasure: 0.85921
+For features: 170 the accuracy: 0.86198, precision: 0.86091, recall: 0.8567, fmeasure: 0.85551
+For features: 200 the accuracy: 0.86263, precision: 0.86016, recall: 0.85664, fmeasure: 0.85541
+For features: 220 the accuracy: 0.86328, precision: 0.85851, recall: 0.85731, fmeasure: 0.85514
+For features: 250 the accuracy: 0.86141, precision: 0.85647, recall: 0.85566, fmeasure: 0.85343
+For features: 270 the accuracy: 0.86198, precision: 0.85762, recall: 0.85547, fmeasure: 0.85411
+For features: 300 the accuracy: 0.85847, precision: 0.853, recall: 0.8519, fmeasure: 0.85028
+For features: 340 the accuracy: 0.86002, precision: 0.85421, recall: 0.85369, fmeasure: 0.85204
+For features: 360 the accuracy: 0.85969, precision: 0.85391, recall: 0.85361, fmeasure: 0.85205
+For features: 400 the accuracy: 0.85977, precision: 0.85379, recall: 0.85363, fmeasure: 0.85213
+
+
+SVM - metrics per #components
+For features: 10 the accuracy: 0.94016, precision: 0.93671, recall: 0.93232, fmeasure: 0.93406
+For features: 20 the accuracy: 0.94856, precision: 0.94527, recall: 0.94287, fmeasure: 0.94387
+For features: 30 the accuracy: 0.95369, precision: 0.95037, recall: 0.9485, fmeasure: 0.94933
+For features: 50 the accuracy: 0.95842, precision: 0.95524, recall: 0.95458, fmeasure: 0.95487
+For features: 70 the accuracy: 0.95997, precision: 0.95657, recall: 0.956, fmeasure: 0.95626
+For features: 80 the accuracy: 0.96136, precision: 0.95834, recall: 0.95748, fmeasure: 0.95788
+For features: 100 the accuracy: 0.96176, precision: 0.95861, recall: 0.95874, fmeasure: 0.95866
+For features: 120 the accuracy: 0.96307, precision: 0.95999, recall: 0.96054, fmeasure: 0.96025
+For features: 150 the accuracy: 0.96478, precision: 0.96202, recall: 0.96238, fmeasure: 0.96219
+For features: 170 the accuracy: 0.96511, precision: 0.96244, recall: 0.96287, fmeasure: 0.96265
+For features: 200 the accuracy: 0.96543, precision: 0.96291, recall: 0.96332, fmeasure: 0.96311
+For features: 220 the accuracy: 0.96592, precision: 0.96334, recall: 0.96369, fmeasure: 0.9635
+For features: 250 the accuracy: 0.96592, precision: 0.9633, recall: 0.96371, fmeasure: 0.9635
+For features: 270 the accuracy: 0.96706, precision: 0.96468, recall: 0.96483, fmeasure: 0.96475
+For features: 300 the accuracy: 0.96731, precision: 0.96486, recall: 0.96511, fmeasure: 0.96498
+For features: 340 the accuracy: 0.96747, precision: 0.96535, recall: 0.96519, fmeasure: 0.96526
+For features: 360 the accuracy: 0.9691, precision: 0.96682, recall: 0.9668, fmeasure: 0.9668
+For features: 400 the accuracy: 0.96812, precision: 0.96615, recall: 0.96566, fmeasure: 0.9659
+
+For features: 20 the accuracy: 0.94864, precision: 0.94521, recall: 0.9428, fmeasure: 0.9438
+For features: 100 the accuracy: 0.96233, precision: 0.95918, recall: 0.95921, fmeasure: 0.95917
+For features: 200 the accuracy: 0.96657, precision: 0.96399, recall: 0.96463, fmeasure: 0.9643
+For features: 300 the accuracy: 0.96755, precision: 0.96541, recall: 0.96534, fmeasure: 0.96536
+For features: 400 the accuracy: 0.96894, precision: 0.96676, recall: 0.96655, fmeasure: 0.96665
+For features: 500 the accuracy: 0.96926, precision: 0.96738, recall: 0.96703, fmeasure: 0.9672
+For features: 600 the accuracy: 0.96926, precision: 0.96736, recall: 0.96674, fmeasure: 0.96704

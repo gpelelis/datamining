@@ -1,0 +1,5 @@
+Statistic Measure	Naive Bayes	Random Forest	SVM	my_method
+Accuracy	0.87357	0.94861	0.95432	0.96085
+Precision	0.86006	0.94322	0.94624	0.95447
+Recall	0.8643	0.94306	0.94824	0.95929
+F-Measure	0.85908	0.94308	0.94708	0.9566

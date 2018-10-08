@@ -1,0 +1,5 @@
+Statistic Measure	Naive Bayes	Random Forest	SVM	KNN
+Accuracy	0.87612	0.94377	0.96496
+Precision	0.85543	0.93564	0.95963
+Recall	0.86842	0.93645	0.96327
+F-Measure	0.85638	0.93603	0.96137
